@@ -1,0 +1,131 @@
+/*Styling the body */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0e0e0e;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+/*styling the poster */
+.poster {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+}
+
+.poster img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/*styling the poster text */
+.poster-text {
+    position: absolute;
+    color: #f2f2f2;
+    width: 90%;
+    top: 5%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    padding: 1rem;
+    z-index: 3;
+}
+
+.poster-text h1 {
+    margin: 0;
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+
+.highlight {
+    color: #c8102e;
+}
+
+/*styling the tagline */
+.poster-tagline {
+    font-size: 2em;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 100%;
+    color: #f2f2f2;
+    text-align: center;
+    letter-spacing: 5px;
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    z-index: 2;
+    bottom: 25%;
+    padding: 0 5%;
+}
+
+/*styling the links */
+.links {
+    position: absolute;
+    font-size: 10px;
+    width: 90%;
+    bottom: 8%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    z-index: 3;
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.links a {
+    color: #ff3333;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/*styling the poster credits */
+.poster-credits{
+    font-family:'Oswald', sans-serif;
+    position: absolute;
+    bottom: 11%;
+    left: 50%;
+    width:80%;
+    font-size: 0.5em;
+    text-align: center;
+    transform: translateX(-50%);
+    padding: 10px 0;
+    box-sizing: border-box;
+    line-height: 1.4em;
+    color: #f2f2f2;
+    z-index: 4;
+    letter-spacing: 0.5px;
+}
+
+.poster-credits p {
+    margin: 0;
+    padding: 2px 0;
+    font-weight: 300;
+}
+
+/*styling the footer credits */
+footer.credits{
+    font-family: 'Arial', sans-serif;
+    position: absolute;
+    text-align: center;
+    font-size: 0.5em;
+    width: 95%;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 1.1em;
+    z-index: 2;
+    padding: 0.2rem 0;
+}
+footer.credits p{
+    margin: 0;
+    padding: 0;
+}
